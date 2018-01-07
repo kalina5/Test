@@ -31,8 +31,12 @@ public class ProstyShit {
         int wynik = 0;
         for (int i = 0; i < tab.length; i++) {
             wynik = wynik + tab[i];
-            System.out.println(wynik);
         }
+        System.out.println("Oto suma szczęścia!    " + wynik);
+
+        //tworzenie średniej szczęścia
+        double average = ((double) wynik / userInput);
+        System.out.println("Oto średnia szczęścia:  " + average);
     }
 
 
