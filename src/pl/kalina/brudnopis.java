@@ -21,7 +21,20 @@ public class brudnopis {
 
             }
         }
+        //liczenie sum według wierszy
+        int[] addingValueRows = new int[c];
+        for (int e = 0; e < macierz.length; e++) {
+            for (int f = 0; f < macierz[e].length; f++) {
+                addingValueRows[e] = addingValueRows[e] + macierz[e][f];
+            }
+            //pokazanie tych sum według wierszy w macierzy
+            for (int g : addingValueRows) {
+                System.out.println(g);
+            }
+            System.out.println("Oto suma wierszy!");
 
-    }
+
         }
+    }
+}
 
