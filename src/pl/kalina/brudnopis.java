@@ -6,20 +6,12 @@ package pl.kalina;
 public class brudnopis {
     public static void main(String[] args) {
 
+        int[][] macierz = new int[5][6];
+        //uzupelnianie macierzy
+        for (int a = 0; a < macierz.length; a++) {
+            for (int b = 0; b < macierz[a].length; b++) {
 
-        //Random random = new Random();
-
-        int[][] tablica = new int[4][5];
-        for (int a = 0; a < tablica.length; a++) {
-            for (int b = 0; b < tablica[a].length; b++) {
-                tablica[a][b] = a + 1;
-            }
-            for (int[] x : tablica) {
-
-                System.out.print(x + "\t");
             }
         }
-
-    }
 
 }
