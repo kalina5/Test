@@ -27,15 +27,12 @@ public class ProstyShit {
                 System.out.println(tab[a]);
         }
 
-        /*tworzenie sumy szczęścia na dzisiaj
-        int sumyLiczbSzczescia = 0;
-        for (int k : tab) {
-            for (int g : k)
-                sumyLiczbSzczescia = sumyLiczbSzczescia + g;
+        //tworzenie sumy szczęścia na dzisiaj
+        int wynik = 0;
+        for (int i = 0; i < tab.length; i++) {
+            wynik = wynik + tab[i];
+            System.out.println(wynik);
         }
-
-*/
-        jshjfihsfgliushfgoshdfgliusdhrilgu
     }
 
 
