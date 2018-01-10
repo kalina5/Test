@@ -12,9 +12,12 @@ public class noweKroki {
                 tablicoweGowno[komórkiWierszy][komórkiKolumny] = 0;
                 int liczbaKtóraWypełniaSięCoDrugaKomórka = 2;
                 //int k = 0;
-                int n = 0;
-                tablicoweGowno[0][2 * n + 1] = liczbaKtóraWypełniaSięCoDrugaKomórka;
-                tablicoweGowno[0][2 * n + 3] = liczbaKtóraWypełniaSięCoDrugaKomórka;
+                //int n = 0;
+                //tablicoweGowno[0][2 * n + 1] = liczbaKtóraWypełniaSięCoDrugaKomórka;
+                //tablicoweGowno[0][2 * n + 3] = liczbaKtóraWypełniaSięCoDrugaKomórka;
+                int coDrugiIndeksTablicy = tablicoweGowno[komórkiWierszy][komórkiKolumny] + 2;
+                while (coDrugiIndeksTablicy - 1 < tablicoweGowno[komórkiWierszy][komórkiKolumny])
+                    System.out.println(liczbaKtóraWypełniaSięCoDrugaKomórka);
 
                 if (komórkiKolumny + 1 < rozmiarKolumny)
                     System.out.print("[" + tablicoweGowno[komórkiWierszy][komórkiKolumny] + "]" + "\t");
