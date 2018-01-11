@@ -44,14 +44,14 @@ public class ćwiczeniaTablicoweLisa {
         // ZADANIE OD KUBSONA
         // K3. Stwórz tablicę jednowymiarową 10-elementową i wypełnij ją elementami od 100 do 1000.
 
-        int[] tablex = new int[10];
+        /*int[] tablex = new int[10];
         for (int k = 0; k < tablex.length; k++) {
             tablex[k] = 100 * k + 100;
         }
         for (int g : tablex) {
             System.out.print(g + "\t");
         }
-
+*/
         /*for (int i = 0; i < tablica.length; i++) {
             System.out.print(i);
         }*/
@@ -61,12 +61,17 @@ public class ćwiczeniaTablicoweLisa {
                 Komórkom o indeksie parzystym przypisz wartość true, a o indeksie nieparzystym —
         false (zero możesz uznać za wartość parzystą). Zawartość tablicy wyświetl na ekranie */
 
-        /*boolean tablica[] = new boolean[20];
-        for (int i = 0; i <tablica.length; i++) {
-            tablica[i] = false;
+        boolean tablica[] = new boolean[20];
+        for (int i = 0; i < tablica.length; i++) {
+            if (tablica[i / 2])
+                System.out.println("true");
+            else if (tablica[i]) {
+                System.out.println("false");
+            }
+
         }
-        for (boolean a = true)
-        }*/
+
+
     }
 
 }
