@@ -8,12 +8,31 @@ public class ćwiczeniaTablicoweLisa {
         znalazły się liczby od 10 do 100 (czyli 10, 20, 30 itd.). Zawartość tablicy wyświetl na
         ekranie.  */
 
-        int[] tablica = new int[10];
+        /*int[] tablica = new int[10];
         for (int i = 0; i < tablica.length; i++) {
             tablica[i] = 10 * i + 10;
         }
         for (int a : tablica)
-            System.out.print(a + "\t");
+            System.out.print(a + "\t");*/
+
+        // ZADANIE OD KUBSONA
+        // K1. Stwórz tablicę jednowymiarową przechowującą nazwy dni tygodnia.
+
+        String[] weekDays = new String[7];
+        weekDays[0] = "Poniedziałek";
+        weekDays[1] = "Wtorek";
+        weekDays[2] = "Sroda";
+        weekDays[3] = "Czwartek";
+        weekDays[4] = "Piątek";
+        weekDays[5] = "Sobota";
+        weekDays[6] = "Niedziela";
+        for (String x : weekDays) {
+            System.out.println(x);
+        }
+
+
+
+
         /*for (int i = 0; i < tablica.length; i++) {
             System.out.print(i);
         }*/
@@ -30,4 +49,5 @@ public class ćwiczeniaTablicoweLisa {
         for (boolean a = true)
         }*/
     }
+
 }
