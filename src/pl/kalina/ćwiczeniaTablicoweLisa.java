@@ -10,11 +10,24 @@ public class ćwiczeniaTablicoweLisa {
 
         int[] tablica = new int[10];
         for (int i = 0; i < tablica.length; i++) {
-            tablica[i] = i;
+            tablica[i] = 10 * i + 10;
         }
-        for (int i = 0; i < tablica.length; i++) {
-            System.out.print(10 * i + 10 + "\t");
-        }
+        for (int a : tablica)
+            System.out.print(a + "\t");
+        /*for (int i = 0; i < tablica.length; i++) {
+            System.out.print(i);
+        }*/
 
+        //Ćwiczenie 11.3.
+        /*        Napisz program, w którym zostanie utworzona 20-elementowa tablica typu boolean.
+                Komórkom o indeksie parzystym przypisz wartość true, a o indeksie nieparzystym —
+        false (zero możesz uznać za wartość parzystą). Zawartość tablicy wyświetl na ekranie */
+
+        /*boolean tablica[] = new boolean[20];
+        for (int i = 0; i <tablica.length; i++) {
+            tablica[i] = false;
+        }
+        for (boolean a = true)
+        }*/
     }
 }
