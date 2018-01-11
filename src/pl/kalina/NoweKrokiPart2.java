@@ -7,7 +7,7 @@ public class NoweKrokiPart2 {
 
         Random random = new Random();
 
-        int rozmiarPoWierszach = 5;
+        int rozmiarPoWierszach = 8;
         int rozmiarPoKolumnach = 10;
         int[][] tablowe = new int[rozmiarPoWierszach][rozmiarPoKolumnach];
         for (int wiersze = 0; wiersze < tablowe.length; wiersze++) {
@@ -18,7 +18,21 @@ public class NoweKrokiPart2 {
                 else {
                     System.out.println(tablowe[wiersze][kolumny]);
                 }
+            /*int rozmiarPoWierszachDrugiejTablowe = rozmiarPoWierszach;
+            int rozmiarPoKolumnachDrugiejTablowe = rozmiarPoKolumnach;
+            int[][] drugieTablowe = new int[rozmiarPoWierszachDrugiejTablowe][rozmiarPoKolumnachDrugiejTablowe];
+            for (int wierszeDrugiejTablowe = 0; wierszeDrugiejTablowe < drugieTablowe.length; wierszeDrugiejTablowe++) {
+                for (int kolumnyDrugiejTablowe = 0; kolumnyDrugiejTablowe < drugieTablowe[wierszeDrugiejTablowe].length; kolumnyDrugiejTablowe++) {
+                    drugieTablowe[wierszeDrugiejTablowe][kolumnyDrugiejTablowe] = tablowe[wiersze][kolumny] / 2;
+                    if (kolumnyDrugiejTablowe + 1 < rozmiarPoKolumnachDrugiejTablowe)
+                        System.out.print(drugieTablowe[wierszeDrugiejTablowe][kolumnyDrugiejTablowe] + "\t");
+                    else {
+                        System.out.println(drugieTablowe[wierszeDrugiejTablowe][kolumnyDrugiejTablowe]);
+                    }
+                }
+            }*/
             }
+
         }
     }
 }
