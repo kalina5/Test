@@ -18,7 +18,7 @@ public class ćwiczeniaTablicoweLisa {
         // ZADANIE OD KUBSONA
         // K1. Stwórz tablicę jednowymiarową przechowującą nazwy dni tygodnia.
 
-        String[] weekDays = new String[7];
+        /*String[] weekDays = new String[7];
         weekDays[0] = "Poniedziałek";
         weekDays[1] = "Wtorek";
         weekDays[2] = "Sroda";
@@ -27,10 +27,19 @@ public class ćwiczeniaTablicoweLisa {
         weekDays[5] = "Sobota";
         weekDays[6] = "Niedziela";
         for (String x : weekDays) {
-            System.out.println(x);
+            System.out.println(x);*/
+
+// ZADANIE OD KUBSONA
+        // K2. Stwórz tablicę jednowymiarową i wypełnij ją elementami od 0 do 100.
+
+        int table[] = new int[100];
+        for (int i = 0; i < table.length; i++) {
+            table[i] = i + 1;
         }
 
-
+        for (int x : table) {
+            System.out.println(x);
+        }
 
 
         /*for (int i = 0; i < tablica.length; i++) {
