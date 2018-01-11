@@ -32,15 +32,25 @@ public class ćwiczeniaTablicoweLisa {
 // ZADANIE OD KUBSONA
         // K2. Stwórz tablicę jednowymiarową i wypełnij ją elementami od 0 do 100.
 
-        int table[] = new int[100];
+        /*int table[] = new int[100];
         for (int i = 0; i < table.length; i++) {
             table[i] = i + 1;
         }
 
         for (int x : table) {
             System.out.println(x);
-        }
+        }*/
 
+        // ZADANIE OD KUBSONA
+        // K3. Stwórz tablicę jednowymiarową 10-elementową i wypełnij ją elementami od 100 do 1000.
+
+        int[] tablex = new int[10];
+        for (int k = 0; k < tablex.length; k++) {
+            tablex[k] = 100 * k + 100;
+        }
+        for (int g : tablex) {
+            System.out.print(g + "\t");
+        }
 
         /*for (int i = 0; i < tablica.length; i++) {
             System.out.print(i);
