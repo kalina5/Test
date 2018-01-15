@@ -6,14 +6,16 @@ public class ćwiczeniaPętloweLisa {
         //        Wykorzystując pętlę for, napisz program, który wyświetli liczby całkowite od 1 do 10
         //          podzielne przez 2.
 
-        /*for (int i = 1; i++ <= 10;){
-            System.out.print(" " + i++ + " ");
-            }*/
+/*        for (int i = 1; i <= 10; i++) {
+            if (i % 2 == 0)
+                System.out.print(" " + i + " ");
+        }*/
 
         // Pętla nieparzystych od 1 do 10
 
-        /*for (int a = 0; a++<10;){
-            System.out.print("  " + a++ + "  ");
+/*        for (int a = 0; a < 10; a++) {
+            if (a % 2 != 0)
+                System.out.print("  " + a + "  ");
         }*/
 
         // Ćwiczenie 9.2.
@@ -27,7 +29,7 @@ public class ćwiczeniaPętloweLisa {
         // i++;}}
 
         // listing 2.29
-        /*int i = 0;
+/*        int i = 0;
           while(i++ < 10){
           System.out.println("Pętle w Javie");
           }}
@@ -47,16 +49,15 @@ public class ćwiczeniaPętloweLisa {
         // niepodzielne przez 3. 1,2,[3],4,5,[6],7,8,[9],10,11,[12],13,14,[15],16,17,[18],19,20
 
 
-        /*
-        int i = 0;
-        while (i < 20){
-            System.out.print(" " + i + " ");
-            i++;
-            i++;
-            i++;
-            }
+/*        int i = 0;
 
-            */
+        while (i < 20) {
+            if (i % 3 != 0)
+                System.out.print(" " + i + " ");
+            i++;
+        }*/
+
+
 
 
         /*Ćwiczenie 9.4.
@@ -90,19 +91,35 @@ public class ćwiczeniaPętloweLisa {
         c) wykorzystując pętlę do…while */
 
         // podpunkt a )
-        /*for (int i = 1; i < 20; i++){
-            System.out.println("O to nieparzysta cyfra: " + i++ );
-            System.out.println(" O to parzysta cyfra: " + i);
+/*        for (int i = 1; i < 20; i++) {
+            if (i % 2 == 0)
+                System.out.println("O to parzysta cyfra: " + i);
+            else
+                System.out.println("O to nieparzysta cyfra: " + i);
         }*/
 
         // podpunkt b)
-        int i = 1;
+/*        int i = 0;
         while (i++ < 20) {
-            System.out.println("Nieparzysta  " + i);
-            System.out.println("Parzysta: " + i++ + i++);
 
+            if (i % 2 == 0)
+                System.out.println("O to parzysta cyfra: " + i);
+            else
+                System.out.println("O to nieparzysta cyfra: " + i);
+        }*/
+
+        // podpunkt c)
+
+/*        int i = 1;
+        do {
+            if (i % 2 == 0)
+                System.out.println("O to parzysta cyfra: " + i);
+            else
+                System.out.println("O to nieparzysta cyfra: " + i);
 
         }
+
+        while (i++ < 20);*/
     }
 }
 
