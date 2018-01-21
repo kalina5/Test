@@ -149,5 +149,7 @@ public class ćwiczeniaTablicoweWielowymiaroweLisa {
         //Zmodyfikuj kod z ćwiczenia 12.5 w taki sposób, aby w kolejnych rzędach znajdowała się
         //liczba komórek wynikająca z kolejnych wartości ciągu Fibonacciego, ale tylko tych
         //nieparzystych (czyli 1, 1, 3, 5, 13, 21 itd.)
+        // trololololololololololo
+
     }
 }
